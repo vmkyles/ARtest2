@@ -1,0 +1,53 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+#recorder {
+    display: none;
+}
+
+.bottom-bar {
+    bottom: 2%;
+}
+
+#downloadButton {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 5vmin;
+    font-weight: 1000;
+    color: white;
+    padding: 0.3em 0.6em 0.3em 0.6em;
+    border-radius: 0.5em;
+}
+
+#actionButton {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    font-weight: 1000;
+    /* display: none; */
+}
+
+#requestingCameraIcon {
+    display: none !important;
+}
+
+#requestingCameraPermissions {
+    background-color: transparent !important;
+    color: white !important;
+    text-align: center;
+    font-size: 25px !important;
+}
+
+.button-primary-8w {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+#loadBackground {
+    background-color: black !important;
+    background-image: url('assets/EnterpriseGIS_logo.png');
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: 170%;
+}
+
+.poweredby-img {
+    display: none !important;
+}
